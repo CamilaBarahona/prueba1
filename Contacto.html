@@ -1,0 +1,56 @@
+<!-- formulario de contacto. Debe tener Nombre Completo, 
+correo electrónico, número de contacto, asunto, comentario o mensaje
+ botón de enviar mensaje. Cada caja debe contener su placeholder-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Contacto</title>
+    <link href="estilo.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="nav-container">
+        <nav>
+            <img src="images/logo1.png" alt="imagen">
+            <div id="menu-list">
+                <ul>
+                    <li><a href="Inicio.html"> Inicio </a></li>
+                    <li><a href="Experiencia.html"> Experiencia </a></li>
+                    <li><a href="Proyectos.html">Proyectos </a></li>
+                    <li><a class="active" href="Contacto.html"> Contacto </a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div class="container">
+        <h2> Contacto</h2>
+        <form id="Formulario" action="">
+            <p>
+                Nombre Completo: <input type="text" name="Nombre completo"
+                    placeholder="Nombre nombre Apellido Apellido">
+            </p>
+            <p>
+                Correo electrónico: <input type="text" name="Correo electrónico" placeholder="correo@ejemplo.com">
+            </p>
+            <p>
+                Número de contacto: <input type="text" name="num de contacto" placeholder="999999999">
+            </p>
+            <p>
+                Asunto: <input type="text" name="asunto" placeholder=" Indique el motivo de contacto">
+            </p>
+            <p>
+                Comentario: <input type="text" name="comentario" placeholder="redacte su necesidad de contacto">
+            </p>
+            <p>
+                <input type="submit" name="Enviar" value="Enviar mensaje">
+            </p>
+        </form>
+    </div>
+
+    <footer>
+        <p> Todos los derechos reservados. Creado por Camila Barahona &copy; </p>
+    </footer>
+</body>
+
+</html>
