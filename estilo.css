@@ -1,42 +1,56 @@
-/* Estilo para el HTML, definimos la fuente, y el color de fondo*/ 
-html { 
+/* Estilo para el HTML, definimos la fuente, y el color de fondo*/
+html {
     background-color: rgb(188, 240, 240);
-    font-family: "Calibri" ;
+    font-family: "Calibri";
     font-size: 15px;
 
 }
-/*  Quitamos bordes del body*/ 
-body{ 
-    margin: 0; 
+
+/*  Quitamos bordes del body*/
+body {
+    margin: 0;
     padding: 0;
 }
-#nav-container{ 
-    background-color:rgb(60, 55, 143);
+
+/*asignamos un contenedor para el nav y le damos estilos, tales como color de fondo, 
+adaptabilidad al body para que no quede separación, altura t sombra */
+#nav-container {
+    background-color: rgb(60, 55, 143);
     width: 100%;
     height: 70px;
     box-shadow: 0px 0px 5px 0px black;
 }
-nav{ 
-    color: rgb(245 ,225 ,199);
+
+/* le asignamos un color a la fuente del navegador y que se adapte al tamaño del html */
+nav {
+    color: rgb(245, 225, 199);
     width: 100%;
 }
 
-nav img{
+/* le damos formato a la imagen, tal como el tamaño, la altura, la hacemos 
+flotante ubicada a la izquierda y la centramos utilizando el margen */
+nav img {
     height: 60px;
     width: 60px;
     margin-top: 5px;
     float: left;
 }
-nav ul{
+
+/* damos formato a la lista para que se alinien los elementos uno al lado del otro*/
+nav ul {
     padding: 0px;
     margin: 0px;
     display: inline-block;
 }
 
-#menu-list{
+/* damos formato al contenedor para que quede centrado */
+#menu-list {
     float: right;
 }
-nav ul li{
+
+/* usamos el display para alinear los elementos de la lista. le damos altura,
+ definimos el margen superior, margen inferior */
+nav ul li {
     display: inline;
     height: 25px;
     margin-top: 7px;
@@ -45,7 +59,9 @@ nav ul li{
 
 }
 
-nav ul li a{ 
+/* quitamos la decoración del texto, lo que quita el subrayado. damos color, tamaño de fuente, 
+le damos la altura a la linea.  */
+nav ul li a {
     text-decoration: none;
     color: antiquewhite;
     font-size: 22px;
@@ -53,18 +69,22 @@ nav ul li a{
     padding: 5px 15px;
 }
 
-.active{ 
+/* nos permite cambiar el color cuando estemos dentro de la plantilla html*/
+.active {
     color: #d572ab;
 }
 
-.container{ 
+/* Definimos estilo del contenedor */
+.container {
     padding-left: 100px;
     padding-right: 100px;
     padding-bottom: 80px;
-   
 }
-footer { 
-    background-color:rgb(60, 55, 143) ;
+
+/* Damos estilo al footer, otorgandole color de fondo, color a la letra, altura, ancho, alineación del texto, 
+dejamos el footer fijo, y le damos sombra */
+footer {
+    background-color: rgb(60, 55, 143);
     color: rgb(245, 225, 199);
     width: 100%;
     height: 45px;
@@ -75,8 +95,8 @@ footer {
     box-shadow: 0px 0px 5px 0px black;
 }
 
-.container img{
+/* Damos estilo a las imagenes */
+.container img {
     width: 100%;
     border-radius: 20px;
 }
-
